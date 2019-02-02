@@ -76,7 +76,7 @@ img.bg {
 
 .area {
 	background-color: #222;
-	width: 80%;
+	width: 82%;
 	text-align: center;
 	border-radius: 10px;
 }
@@ -131,7 +131,11 @@ img.bg {
 	color: #bbb;
 	text-decoration: none;
 }
-
+/*
+#info > div > div > a {
+	padding: 10px 8px 10px 8px;
+}
+*/
 #info a:hover {
 	color: #eee;
 	font-weight: bold;
