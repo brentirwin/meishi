@@ -1,0 +1,174 @@
+body {
+	font-family: "Droid Sans Mono", "Lucidia Console", Monaco, monospace;
+	background-color: #111;
+}
+
+img.bg {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#content {
+	overflow: hidden;
+	max-width: 600px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 20px;
+	display: table;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#content > div {
+	width: 50%;
+	height: 400px;
+}
+
+#photo {
+	float: left;
+	overflow: hidden;
+	background-color: #222;
+}
+
+#photo img {
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 0;
+	display:;
+}
+
+#photo h1 {
+	text-align: center;
+	color: #eee;
+}
+
+#info {
+	overflow: hidden;
+	background-color: #333;
+}
+
+#info > * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.area {
+	background-color: #222;
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.area * {
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+.area > h2 > i {
+	padding: 5px 10px 5px 0;
+}
+
+.area > div > a > i {
+	padding: 0 10px 0 0;
+}
+
+.area h2 {
+	color: #ddd;
+	border-bottom: 1px solid #333;
+	margin-bottom: 0px;
+
+}
+
+#info img.icon {
+	position: fixed;
+	top: 130px;
+	margin-left: -120px;
+	height: 3em;
+	width: 3em;
+	padding-right: 5px;
+}
+
+.area a {
+	display: inline-block;
+	text-align: center;
+	color: #bbb;
+	text-decoration: none;
+}
+
+.area a:hover {
+	color: #eee;
+}
+
+#info p {
+	padding-bottom: 10px;
+	text-align: center;
+	color: #ddd;
+}
+
+#info a {
+	color: #bbb;
+	text-decoration: none;
+}
+
+#info a:hover {
+	color: #eee;
+	font-weight: bold;
+}
+
+#info img {
+	position: relative;
+	top: 0.5em;
+	height: 2em;
+	width: 2em;
+	padding-right: 5px;
+}
+
+#mail-icon {
+	padding-right: 10px;
+}
+
+@media screen and (max-width: 425px) {
+	#content {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		max-width: 80%;
+	}
+	#content > div {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.area > div > a {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 584px) and (orientation: landscape) {
+	#content {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		max-width: 80%;
+	}
+}
