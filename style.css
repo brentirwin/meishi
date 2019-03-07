@@ -40,9 +40,71 @@ img.bg {
 	margin-bottom: 10%;
 }
 
-#content > div {
+#photo, #info {
 	width: 50%;
 	height: 400px;
+}
+
+#projects {
+  background-color: #282828;
+  height: 100%;
+  color: #bbb;
+  font-size: .75em;
+}
+
+#projects > div {
+  padding: 20px;
+}
+
+#projects h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#projects ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/*
+
+#projects .project {
+  background-color: #161616;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#projects .title {
+  font-size: 1.33em;
+  font-weight: 600;
+}
+
+#projects .link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#projects .links {
+  display: block;
+}
+
+#projects .link i {
+  padding-right: 10px;
+}
+*/
+
+#projects a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+#projects a:hover {
+  color: #eee;
+  font-weight: bold;
 }
 
 #photo {
@@ -167,6 +229,13 @@ img.bg {
 	.area > div > a {
 		display: block;
 	}
+  #projects li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  } 
+  #projects ul {
+    padding-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 584px) and (orientation: landscape) {
