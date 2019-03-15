@@ -103,6 +103,12 @@ img.bg {
   text-decoration: none;
 }
 
+#projects .icon {
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+}
+
 #projects a:hover {
   color: #eee;
   font-weight: bold;
