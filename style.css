@@ -222,6 +222,10 @@ img.bg {
 	padding-right: 10px;
 }
 
+#projects i {
+  padding-right: 5px;
+}
+
 @media screen and (max-width: 425px) {
 	#content {
 		margin-top: 10%;
@@ -252,3 +256,4 @@ img.bg {
 		max-width: 80%;
 	}
 }
+
