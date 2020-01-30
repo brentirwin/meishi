@@ -170,6 +170,10 @@ img.bg {
 
 }
 
+#bio a {
+  padding: 0;
+}
+
 #info img.icon {
 	position: fixed;
 	top: 130px;
